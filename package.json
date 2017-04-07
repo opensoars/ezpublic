@@ -1,0 +1,40 @@
+{
+  "name": "ezpublic",
+  "version": "0.0.1",
+  "description": "Super easy command line tool to serve a public directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "4.15.2"
+  },
+  "devDependencies": {
+    "mocha": "2.3.4",
+    "coveralls": "2.11.4",
+    "istanbul": "0.4.0",
+    "jsdoc": "3.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opensoars/ezpublic.git"
+  },
+  "keywords": [
+    "public",
+    "directory",
+    "simple",
+    "command",
+    "line",
+    "tool",
+    "serve",
+    "dir",
+    "pub"
+  ],
+  "author": "opensoars",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opensoars/ezpublic/issues"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/opensoars/ezpublic#readme"
+}
