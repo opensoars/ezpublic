@@ -23,7 +23,7 @@ const publicPath = (publicPath => {
   else if (parsedArg3.toString() === 'NaN' && process.argv[2])
     publicPath = publicPath + process.argv[2];
   return publicPath;
-})(__dirname);
+})(process.cwd());
 
 // Middleware
 server.use(express.static(publicPath));

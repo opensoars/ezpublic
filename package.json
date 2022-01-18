@@ -1,6 +1,6 @@
 {
   "name": "ezpublic",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Super easy command line tool to serve a public directory",
   "main": "index.js",
   "bin": {
