@@ -3,18 +3,16 @@
   "version": "0.0.1",
   "description": "Super easy command line tool to serve a public directory",
   "main": "index.js",
+  "bin": {
+    "ezpublic": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "express": "4.15.2"
   },
-  "devDependencies": {
-    "mocha": "2.3.4",
-    "coveralls": "2.11.4",
-    "istanbul": "0.4.0",
-    "jsdoc": "3.3.3"
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/opensoars/ezpublic.git"

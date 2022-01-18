@@ -13,7 +13,7 @@ const port = parsedArg3 > 0 ? parsedArg3 : parsedArg4 ? parsedArg4 : 3333;
 
 // Find out whether a public path (string) has been given using the parsedArg3
 // and parsedArg4 again
-const publicPath = ((publicPath) => {
+const publicPath = (publicPath => {
   if (parsedArg4.toString === 'NaN' && process.argv[3])
     publicPath = publicPath + process.argv[3];
   else if (parsedArg3.toString() !== 'NaN' && process.argv[3])
